@@ -38,6 +38,5 @@ int main()
 
     CharacterCounter(filename);
 
-    getchar();
     return 0;
 }
