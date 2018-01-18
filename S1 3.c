@@ -11,9 +11,11 @@ void LineCounter(char filename[20])
     count=0;
     if(f)
    {
-		while((ch=getc(f))!=EOF)
+	while((ch=getc(f))!=EOF)
+	{
             if (ch=='\n')
             ++count;
+	}
     }
    else
         printf("Failed to open the file\n");
