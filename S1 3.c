@@ -34,6 +34,5 @@ int main()
 
     LineCounter(filename);
 
-    getchar();
     return 0;
 }
